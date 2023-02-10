@@ -1,0 +1,49 @@
+{
+  "name": "latest-tsconfig",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "description": "Latest (Feb 2023) TypeScript Configuration Preset Library",
+  "keywords": [
+    "typescript",
+    "config",
+    "options",
+    "confiruration",
+    "json",
+    "ts",
+    "library",
+    "tsconfig",
+    "preset",
+    "react",
+    "compile",
+    "ts-node",
+    "execution",
+    "exec",
+    "running",
+    "node",
+    "babel"
+  ],
+  "homepage": "https://github.com/teniryte/latest-tsconfig",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "test": "node ./node_modules/.bin/jest"
+  },
+  "author": {
+    "name": "teniryte",
+    "email": "teniryte@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:teniryte/latest-tsconfig.git"
+  },
+  "publish": true,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "bin": {
+    "latest-tsconfig": "./bin/latest-tsconfig"
+  }
+}
